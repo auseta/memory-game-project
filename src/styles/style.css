@@ -19,6 +19,7 @@
   border: 1px solid black;
   width: 250px;
   height: 350px;
+  cursor: pointer;
 }
 
 .game--card > img {
