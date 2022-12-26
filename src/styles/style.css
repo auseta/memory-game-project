@@ -1,28 +1,101 @@
+:root {
+  --dark-color : #080607;
+  --font-color: #FDFEFF;
+  --outline-color: #765147;
+}
+
+@font-face {
+  font-family: 'Dark Souls';
+  src: url('../fonts/optimusprinceps-webfont.woff') format('woff'),
+      url('../fonts/optimusprinceps-webfont.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Dark Souls';
+  background-color: var(--dark-color);
+}
+
+h1, h2, h3, p, a {
+  text-shadow: 0px 0px 10px var(--outline-color);
+  color: var(--font-color);
+}
+
+p {
+  font-size: 24px;
+}
+
 .header {
   display: flex;
+  letter-spacing: 3px;
   justify-content: space-between;
   padding: 0 25px;
 }
 
+.header--score {
+  width: 220px;
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+
+.header p {
+  margin-right: 300px;
+}
+
 .app-wrapper {
-  background-color: red;
+  margin-top: 55px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 25px;
 }
 
 .game--card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gold;
-  border: 1px solid black;
+  border: 5px solid var(--outline-color);
+  padding: 5px 0;
   width: 250px;
   height: 350px;
+  letter-spacing: 3px;
+  text-align: center;
   cursor: pointer;
 }
 
 .game--card > img {
-  width: 200px;
-  height: 150px;
+  width: 90%;
+  height: 250px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #a7afb8;
+}
+
+.footer img {
+  width: 35px;
+  vertical-align: -4px;
+  margin: 0 15px;
+}
+
+@media (max-width:  360px) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header p {
+    margin: 0;
+  }
+
 }
