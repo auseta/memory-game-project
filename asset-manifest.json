@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/memory-game-project/static/css/main.974b1289.css",
+    "main.js": "/memory-game-project/static/js/main.c5bc6bff.js",
+    "static/media/Gwyndolin.jpg": "/memory-game-project/static/media/Gwyndolin.593e29fecee464285b19.jpg",
+    "static/media/Four-Kings.jpg": "/memory-game-project/static/media/Four-Kings.9d97ecccf4d7291037d4.jpg",
+    "static/media/Ornstein.jpg": "/memory-game-project/static/media/Ornstein.2181b6936f04cd4e2a82.jpg",
+    "static/media/Sif.jpg": "/memory-game-project/static/media/Sif.f540d527b77dd2a088b0.jpg",
+    "static/media/bonfire.png": "/memory-game-project/static/media/bonfire.aa9e8e61525d023ebff2.png",
+    "static/media/Gwyn.jpg": "/memory-game-project/static/media/Gwyn.b05de86eec44f05055c9.jpg",
+    "static/media/Seath.jpg": "/memory-game-project/static/media/Seath.f3c1034904946a63cc6a.jpg",
+    "static/media/Smough.jpg": "/memory-game-project/static/media/Smough.d85877139a04ba7352aa.jpg",
+    "static/media/Nito.jpg": "/memory-game-project/static/media/Nito.1106d9fbc6f4aa5b45f4.jpg",
+    "static/media/Lautrec.jpg": "/memory-game-project/static/media/Lautrec.0c327a113c381259d45f.jpg",
+    "static/media/Solaire.jpg": "/memory-game-project/static/media/Solaire.41ced50dc246a80e1994.jpg",
+    "static/media/Oscar.jpg": "/memory-game-project/static/media/Oscar.373146d80673657b1c0d.jpg",
+    "static/media/Siegmeyer.jpg": "/memory-game-project/static/media/Siegmeyer.e6df0e65f5255a9f6a5a.jpg",
+    "static/media/Witch.jpg": "/memory-game-project/static/media/Witch.f5bc01d762bf8d5ceaa2.jpg",
+    "static/media/Artorias.jpg": "/memory-game-project/static/media/Artorias.f861275476c732a2903e.jpg",
+    "static/media/Patches.jpg": "/memory-game-project/static/media/Patches.7222f07b9b3a37dbaf56.jpg",
+    "static/media/optimusprinceps-webfont.woff": "/memory-game-project/static/media/optimusprinceps-webfont.5b49756751cea131b301.woff",
+    "static/media/optimusprinceps-webfont.woff2": "/memory-game-project/static/media/optimusprinceps-webfont.93c3386070de09c0d09c.woff2",
+    "index.html": "/memory-game-project/index.html",
+    "main.974b1289.css.map": "/memory-game-project/static/css/main.974b1289.css.map",
+    "main.c5bc6bff.js.map": "/memory-game-project/static/js/main.c5bc6bff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.974b1289.css",
+    "static/js/main.c5bc6bff.js"
+  ]
+}
