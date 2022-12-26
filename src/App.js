@@ -1,14 +1,25 @@
 import React, { useState, useEffect } from 'react';
+import Footer from './components/Footer';
 import Game from './components/Game';
 import Header from './components/Header';
 import data from './data/data';
 import './styles/style.css'
 
-function App() {
-  const [scores, setScore] = useState({ score: 0, bestScore: 0 })
+let selectedCards = [];
 
-  const incrementScore = () => setScore( { ...scores, score : scores.score + 1 } )
-  const setMaxScore = () => setScore( { ...scores, bestScore : scores.score } )
+function App() {
+
+  const [scores, setScore] = useState({ score: 0, bestScore: 0 });
+
+  const handleScores = ( cardName ) => {
+    if ( !selectedCards.includes( cardName ) ) {
+      selectedCards = [...selectedCards, cardName ]
+      setScore({ ...scores, score: scores.score + 1 })
+    } else {
+      selectedCards = []
+      setScore({ score: 0, bestScore : scores.bestScore > scores.score ? scores.bestScore : scores.score })
+    }
+  }
 
   const shuffleData = ( data ) => {
     for ( let i = data.length - 1; i > 0; i -- ) {
@@ -27,7 +38,8 @@ function App() {
   return (
     <div className="container">
       <Header scores={ scores } />
-      <Game handleScore={ incrementScore } />
+      <Game handleScores={ handleScores } />
+      <Footer />
     </div>
   );
 }
