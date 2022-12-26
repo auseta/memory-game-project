@@ -8,10 +8,15 @@ import Oscar from '../images/Oscar.jpg';
 import FourKings from '../images/Four-Kings.jpg';
 import Ornstein from '../images/Ornstein.jpg';
 import Smough from '../images/Smough.jpg';
+import Gwyndolin from '../images/Gwyndolin.jpg';
+import Lautrec from '../images/Lautrec.jpg';
+import Artorias from '../images/Artorias.jpg';
+import Siegmeyer from '../images/Siegmeyer.jpg';
+import Sif from '../images/Sif.jpg';
 
 const data = [
   {
-    name : 'Solaire of Atora',
+    name : 'Solaire of Astora',
     img : Solaire
   },
   {
@@ -20,11 +25,11 @@ const data = [
   },
   {
     name : 'Gravelord Nito',
-    img : Nito,
+    img : Nito
   },
   {
     name : 'Trusty Patches',
-    img : Patches,
+    img : Patches
   },
   {
     name : 'Seath the Scaleless',
@@ -49,6 +54,26 @@ const data = [
   {
     name : 'Smough',
     img : Smough
+  },
+  {
+    name : 'Gwyndolin',
+    img : Gwyndolin
+  },
+  {
+    name : 'Lautrec of Carim',
+    img : Lautrec
+  },
+  {
+    name : 'Knight Artorias',
+    img : Artorias
+  },
+  {
+    name : 'Siegmeyer of Catarina',
+    img : Siegmeyer
+  },
+  {
+    name : 'Great Grey Wolf Sif',
+    img : Sif
   }
 ]
 
