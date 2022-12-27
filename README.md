@@ -2,6 +2,8 @@
 
 This is a simple game of memory. Select a card and then select another BUT NOT THE SAME! to score points and so on. Enjoy it!
 
+<b>Live Demo 👉🏻 <a href='https://auseta.github.io/memory-game-project/' >Here</a></b>
+
 <h2>Features</h2>
 
 <ul>
